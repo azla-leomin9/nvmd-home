@@ -593,9 +593,10 @@ input:focus-visible {
 .criteria-card.priority {
   min-height: 248px;
   grid-column: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: 34px 58px minmax(0, 1fr);
+  align-content: start;
+  row-gap: 16px;
   background:
     linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(250, 242, 231, 0.86)),
     var(--white);
@@ -704,9 +705,18 @@ input:focus-visible {
 .trust-list strong,
 .brand-values h3,
 .history-line h3 {
-  margin: 16px 0 8px;
+  margin: 0 0 8px;
   font-size: 22px;
   line-height: 1.26;
+}
+
+.criteria-card.priority h3 {
+  align-self: center;
+  margin: 0;
+}
+
+.criteria-card.priority p {
+  margin: 0;
 }
 
 .criteria-card p,
@@ -1936,6 +1946,8 @@ input:focus-visible {
   .criteria-card.priority {
     min-height: auto;
     padding: 16px;
+    grid-template-rows: auto;
+    row-gap: 8px;
   }
 
   .criteria-card h3,
