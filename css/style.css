@@ -2198,6 +2198,10 @@ input:focus-visible {
     gap: 10px;
   }
 
+  .history-line article p {
+    grid-column: 1 / -1;
+  }
+
   .history-line article:nth-child(1),
   .history-line article:nth-child(3),
   .history-line article:nth-child(4),
