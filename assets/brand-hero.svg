@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 760" role="img" aria-labelledby="title desc">
+  <title id="title">브랜드 히어로 플레이스홀더</title>
+  <desc id="desc">AZLA 브랜드 분위기 이미지를 교체할 영역</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fffaf3"/>
+      <stop offset="100%" stop-color="#ead7c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="760" rx="24" fill="url(#bg)"/>
+  <rect x="104" y="116" width="612" height="500" rx="24" fill="#ffffff" opacity=".68"/>
+  <path d="M164 510 C260 330 392 286 508 350 C596 398 650 360 694 286" fill="none" stroke="#b78255" stroke-width="26" stroke-linecap="round" opacity=".2"/>
+  <g transform="translate(244 216)">
+    <rect x="40" y="0" width="252" height="252" rx="32" fill="#241b16"/>
+    <text x="166" y="112" text-anchor="middle" fill="#fffaf3" font-family="Pretendard, system-ui, sans-serif" font-size="54" font-weight="900">AZLA</text>
+    <text x="166" y="154" text-anchor="middle" fill="#ead7c2" font-family="Pretendard, system-ui, sans-serif" font-size="18" font-weight="700">Nouveau Monde 02</text>
+  </g>
+  <g transform="translate(86 76)">
+    <rect width="300" height="74" rx="10" fill="#241b16" opacity=".9"/>
+    <text x="24" y="31" fill="#fffaf3" font-family="Pretendard, system-ui, sans-serif" font-size="18" font-weight="800">브랜드 이미지 플레이스홀더</text>
+    <text x="24" y="55" fill="#ead7c2" font-family="Pretendard, system-ui, sans-serif" font-size="13">브랜드 컷 또는 제품 분위기 이미지 교체</text>
+  </g>
+</svg>

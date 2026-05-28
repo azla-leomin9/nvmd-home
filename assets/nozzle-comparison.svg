@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" role="img" aria-labelledby="title desc">
+  <title id="title">5종 노즐 비교 플레이스홀더</title>
+  <desc id="desc">기본 1호, 기본 2호, 커스텀 1호, 커스텀 2호, 커스텀 3호 노즐 이미지를 교체할 영역</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fffaf3"/>
+      <stop offset="100%" stop-color="#ead7c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="640" rx="24" fill="url(#bg)"/>
+  <g transform="translate(76 126)">
+    <rect width="568" height="382" rx="18" fill="#ffffff" opacity=".72"/>
+    <g transform="translate(54 82)" fill="#f2e7d8" stroke="#7a5134" stroke-opacity=".28" stroke-width="3">
+      <path d="M0 160 C0 86 28 18 70 18 C112 18 140 86 140 160 C140 206 108 232 70 232 C32 232 0 206 0 160Z"/>
+      <path d="M104 160 C104 88 134 26 178 26 C222 26 252 88 252 160 C252 204 222 226 178 226 C134 226 104 204 104 160Z"/>
+      <path d="M218 164 C218 80 256 0 310 0 C364 0 402 80 402 164 C402 214 364 244 310 244 C256 244 218 214 218 164Z"/>
+      <path d="M360 164 C360 96 388 40 430 40 C472 40 500 96 500 164 C500 204 472 226 430 226 C388 226 360 204 360 164Z"/>
+      <path d="M456 168 C456 92 488 18 536 18 C584 18 616 92 616 168 C616 214 584 240 536 240 C488 240 456 214 456 168Z"/>
+    </g>
+  </g>
+  <g transform="translate(70 58)">
+    <rect width="320" height="74" rx="10" fill="#241b16" opacity=".9"/>
+    <text x="24" y="31" fill="#fffaf3" font-family="Pretendard, system-ui, sans-serif" font-size="18" font-weight="800">5종 노즐 플레이스홀더</text>
+    <text x="24" y="55" fill="#ead7c2" font-family="Pretendard, system-ui, sans-serif" font-size="13">실제 실리콘 노즐 이미지 교체</text>
+  </g>
+  <g font-family="Pretendard, system-ui, sans-serif" font-size="14" fill="#7a5134" font-weight="800">
+    <text x="118" y="548">기본 1호</text>
+    <text x="226" y="548">기본 2호</text>
+    <text x="334" y="548">커스텀 1호</text>
+    <text x="466" y="548">커스텀 2호</text>
+    <text x="588" y="548">커스텀 3호</text>
+  </g>
+</svg>

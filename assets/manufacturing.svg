@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-labelledby="title desc">
+  <title id="title">제조 신뢰 정보 플레이스홀더</title>
+  <desc id="desc">국내 제조와 GMP 기반 제조 환경 이미지를 교체할 영역</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fffaf3"/>
+      <stop offset="100%" stop-color="#ead7c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="620" rx="24" fill="url(#bg)"/>
+  <rect x="92" y="118" width="576" height="370" rx="18" fill="#ffffff" opacity=".72"/>
+  <g transform="translate(154 236)" fill="none" stroke="#7a5134" stroke-opacity=".34" stroke-width="8" stroke-linejoin="round">
+    <path d="M0 218 V88 L104 128 V88 L208 128 V58 H306 V218 Z" fill="#f2e7d8"/>
+    <path d="M44 218 V166 H262 V218"/>
+    <path d="M342 218 V24 H456 V218"/>
+    <path d="M372 62 H426 M372 102 H426 M372 142 H426"/>
+  </g>
+  <circle cx="516" cy="238" r="42" fill="#e4eadf" stroke="#6f7d68" stroke-opacity=".36" stroke-width="4"/>
+  <text x="516" y="246" text-anchor="middle" fill="#6f7d68" font-family="Pretendard, system-ui, sans-serif" font-size="22" font-weight="900">GMP</text>
+  <g transform="translate(78 64)">
+    <rect width="360" height="74" rx="10" fill="#241b16" opacity=".9"/>
+    <text x="24" y="31" fill="#fffaf3" font-family="Pretendard, system-ui, sans-serif" font-size="18" font-weight="800">제조 신뢰 플레이스홀더</text>
+    <text x="24" y="55" fill="#ead7c2" font-family="Pretendard, system-ui, sans-serif" font-size="13">국내 제조·GMP 환경 이미지 교체</text>
+  </g>
+</svg>

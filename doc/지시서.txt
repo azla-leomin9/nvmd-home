@@ -1,0 +1,76 @@
+You are an expert Korean landing page designer and front-end developer.
+
+Build a new static website for AZLA Nouveau Monde 02 Nasal Aspirator from scratch. Assume you have no prior website design, no previous mockups, and no external context. Use only the instructions below.
+
+Goal:
+Create a premium but warm Korean product website for a medical device-related nasal aspirator. The site must explain product benefits clearly, support purchase conversion, avoid exaggerated medical claims, and work well on both desktop and mobile.
+
+Deliver files:
+- index.html
+- about.html
+- css/style.css
+- js/main.js
+- assets/*.svg placeholder images
+
+Technical requirements:
+- HTML, CSS, and vanilla JavaScript only.
+- No build step.
+- Fully responsive desktop/tablet/mobile layout.
+- Use warm cream background, white cards, camel/brown accent, large Korean typography.
+- Use placeholder SVG or CSS image cards for all image areas. Label each placeholder clearly.
+- Use smooth scroll and subtle reveal-on-scroll animations using IntersectionObserver.
+- Respect prefers-reduced-motion.
+- Avoid heavy animation, parallax, or distracting motion.
+
+Product information:
+- Product name: 아즈라 누보몽드 02 콧물흡입기
+- English name: AZLA Nouveau Monde 02 Nasal Aspirator
+- Category: 전동식 의료용 흡인기
+- Features: 약 58.3dB 저소음, 3.3~11.5kPa 흡입 범위, 7단계 흡입 조절, 5종 실리콘 노즐, 소프트 스타트, 과열방지 설계, 역류 방지 구조, 분리 세척, 국내 제조, GMP 기반 제조 환경, 18개월 보증 안내
+- Medical disclaimer: 이 제품은 의료기기이며, 사용상의 주의사항과 사용방법을 잘 읽고 사용하십시오.
+- Ad review text: 의료기기 광고심의필: 심의승인번호 조합-2025-38-069 / 유효기간: 2028.10.22
+
+Copy rules:
+- Do not use exaggerated claims.
+- Do not use words like 완벽한, 가장 안전한, 치료, 비염 완화, 축농증 예방, 중이염 예방, 부작용 없음, 100% 안심, 모든 콧물 제거.
+- For newborn-related copy, always say 보호자가 낮은 단계부터 사용설명서에 따라 사용.
+- Do not invent exact kPa values for each suction level.
+- Do not include price, rating, review count, or unverified testimonials.
+
+index.html sections:
+1. Header with navigation: 제품 특징, 저소음, 흡입 조절, 노즐, 사용·세척, FAQ, 브랜드, 구매처 확인하기
+2. Hero with H1: 조용하게, 부드럽게. 아이의 코에 닿는 순간까지 생각한 콧물흡입기.
+3. Product criteria cards: 저소음 설계, 7단계 흡입 조절, 3.3~11.5kPa 흡입 범위, 5종 실리콘 노즐, 소프트 스타트, 과열방지 설계, 분리 세척 구조, 국내 제조 기반
+4. Quiet design section with noise context and caution that perceived noise varies by space, distance, and suction level
+5. 7-level suction control interactive range slider from 1 to 7 with changing explanatory text
+6. 5-nozzle comparison tabs: 기본 1호, 기본 2호, 커스텀 1호, 커스텀 2호, 커스텀 3호
+7. How-to-use 6-step flow: 상황 확인, 노즐 선택, 낮은 단계 시작, 짧게 나누어 사용, 분리 세척, 건조·보관
+8. Cleaning & storage section with 분리, 헹굼, 건조, 보관 cards
+9. Trust information section: 전동식 의료용 흡인기, 의료기기 고지, 국내 제조, GMP 기반 제조 환경, 18개월 보증 안내, A/S 문의 가능
+10. FAQ accordion with 9 questions
+11. Final CTA with official purchase link button and medical disclaimer text
+
+about.html sections:
+1. Brand hero
+2. Brand philosophy
+3. Sensory engineering
+4. Silicone/nozzle engineering
+5. Manufacturing trust
+6. Brand history
+7. Final CTA back to product page
+
+Interactive JS:
+- Mobile menu open/close
+- Smooth anchor scroll
+- Reveal on scroll
+- 7-level suction slider text update
+- 5-nozzle tabs update content and image placeholder label
+- FAQ accordion open/close
+
+SEO:
+- Add Korean title and meta description for each page.
+- Add Product JSON-LD without price.
+- Add FAQPage JSON-LD using visible FAQ content.
+- Add Organization JSON-LD for AZLA.
+
+Make the first version polished enough to review layout, spacing, hierarchy, responsive behavior, CTA placement, and image replacement areas.
