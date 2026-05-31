@@ -1232,10 +1232,15 @@ input:focus-visible {
   margin-top: 12px;
 }
 
+.trust-visual-group .visual-frame {
+  aspect-ratio: 1;
+}
+
 .trust-visual-group .visual-frame img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  background: #f8efe4;
 }
 
 .trust-list {
@@ -2153,9 +2158,9 @@ input:focus-visible {
   }
 
   .trust-visual-group img {
-    max-height: 260px;
+    max-height: none;
     object-fit: contain;
-    background: #fff;
+    background: #f8efe4;
   }
 
   .editorial-image img,
