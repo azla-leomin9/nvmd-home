@@ -1397,7 +1397,36 @@ input:focus-visible {
 }
 
 .sticky-mobile-cta {
-  display: none;
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 50;
+  min-height: 54px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0 24px;
+  background: var(--camel-dark);
+  color: var(--paper);
+  font-weight: 900;
+  box-shadow: 0 18px 40px rgba(36, 27, 22, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(16px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease), box-shadow 0.5s var(--ease), background-color 0.5s var(--ease);
+}
+
+.sticky-mobile-cta.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.sticky-mobile-cta:hover {
+  transform: translateY(-2px) scale(1.02);
+  background: var(--ink);
+  box-shadow: 0 22px 46px rgba(36, 27, 22, 0.26);
 }
 
 .about-hero {
